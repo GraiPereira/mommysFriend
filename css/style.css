@@ -349,6 +349,16 @@ iframe {
     padding: 20px;
     top: 100px;
 }
+.trabajaConNosotras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    background-color: #afd7ce;
+}
 
 
 /* Media Query Mobile */
@@ -367,6 +377,11 @@ iframe {
     nav img {
         height: 20vh;
         width: 100vw;
+    }
+    .trabajaConNosotras {
+        height: 20vh;
+        width: 100vw;
+        padding: 10px;
     }
     header {
         height: 10vh;
